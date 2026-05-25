@@ -1,0 +1,51 @@
+.upload-page {
+  width: 100%;
+}
+
+.page-card {
+  max-width: 100%;
+}
+
+.page-description {
+  color: #718096;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.file-info {
+  background: #f7fafc;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  border-left: 4px solid #48bb78;
+}
+
+.file-info h3 {
+  margin: 0 0 1rem 0;
+  color: #2f855a;
+}
+
+.file-info p {
+  margin: 0.5rem 0;
+  color: #2d3748;
+}
+
+.section-divider {
+  height: 2px;
+  background: linear-gradient(to right, transparent, #e2e8f0, transparent);
+  margin: 3rem 0;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 2px solid #e2e8f0;
+}
+
+.btn-large {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+}

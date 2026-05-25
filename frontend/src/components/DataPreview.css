@@ -1,0 +1,55 @@
+.data-preview {
+  margin: 2rem 0;
+}
+
+.data-preview h3 {
+  color: #2d3748;
+  margin-bottom: 0.5rem;
+}
+
+.preview-info {
+  color: #718096;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.no-data {
+  text-align: center;
+  color: #a0aec0;
+  padding: 2rem;
+  font-style: italic;
+}
+
+.preview-table-container {
+  overflow-x: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.preview-table {
+  background: white;
+  font-size: 0.9rem;
+}
+
+.preview-table th {
+  position: sticky;
+  top: 0;
+  background: #f7fafc;
+  z-index: 10;
+}
+
+.row-number {
+  font-weight: 600;
+  color: #a0aec0;
+  background: #f7fafc;
+  position: sticky;
+  left: 0;
+  z-index: 5;
+}
+
+.empty-cell {
+  color: #cbd5e0;
+  font-style: italic;
+}
